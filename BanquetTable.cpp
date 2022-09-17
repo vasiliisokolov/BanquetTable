@@ -35,8 +35,11 @@ int main()
     std::cout << "Let's start our banquet!" << std::endl;
     // Пришла дама с ребенком:
     chairs[0][4]++;
+    // Сперли ложку:
     spoons[1][2]--;
+    // ВИП поделился:
     spoons[1][2] = spoons[1][0]--;
+    // Официант убрал тарелку:
     plates[1][0]--;
     
 }
